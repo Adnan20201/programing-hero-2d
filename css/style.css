@@ -13,6 +13,212 @@ body {
     background: rgba(255, 144, 14, 0.1);
 }
 
+
+/* skill section start */
+.skill {
+    padding: 100px 0;
+}
+
+.skill-content {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.skill-item img {
+    width: 100%;
+    margin-left: 60px;
+}
+
+.skill-item {
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.section-tit h4 {
+    position: relative;
+    font-size: 45px;
+    font-weight: 700;
+    align-items: center;
+    color: #131313;
+    padding-bottom: 20px;
+}
+
+.skill .section-tit h4::after {
+    position: absolute;
+    content: '';
+    left: -20px;
+    width: 4px;
+    height: 80%;
+    background-color: #FF900E;
+    bottom: 20px;
+}
+
+.section-tit p {
+    width: 104%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    padding-bottom: 35px;
+}
+
+.skill-info {
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.skill-info h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+}
+
+.skill-info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    padding-top: 10px;
+
+}
+
+.skill-item .btn {
+    margin-top: -35px;
+}
+
+.skill-item .btn a {
+    padding: 18px 35px;
+}
+
+.skill-item .btn a h4 {
+    font-size: 30px;
+}
+
+
+
+/* facts section start */
+.facts {
+    width: 1000px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.facts-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin-top: 40px;
+    grid-gap: 30px;
+}
+
+.facts-item {
+    /* padding: 20px; */
+    border: 1px solid #FF900E;
+    position: relative;
+    transform: scale(.9);
+    transition: 0.3s;
+
+}
+
+.facts-item:hover {
+    transform: scale(1);
+    background-color: #ffffff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border: none;
+}
+
+/* footer */
+footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+/* sponspors section start */
+.sponspors,
+footer {
+    padding: 100px 0;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponspors .section-tit {
+    text-align: center;
+}
+
+.solial {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+    align-items: center;
+
+}
+
+.solicls {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 80%;
+
+}
+
+.solials::after {
+    content: '';
+    left: 0;
+    width: 100%;
+    background-color: #727272;
+    color: #727272;
+}
+
+.solials img {
+    color: #727272;
+    width: 70%;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* footer section start */
+footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 100px;
+
+}
+
+footer p {
+    padding: 10px;
+}
+
+
+
+.facts-item .inner {
+    padding: 35px;
+}
+
+.facts-item .inner img {
+    width: 45px;
+    height: 45px;
+}
+
+.facts-item .inner h4 {
+    font-size: 40px;
+    font-weight: 600px;
+    color: #424242;
+    line-height: 53px;
+}
+
+.facts-item .inner p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #727272;
+}
+
 .container {
     /* display: grid;
     grid-template-columns: auto auto;
@@ -48,8 +254,6 @@ body {
     line-height: 26px;
     color: #424242;
     position: relative;
-
-
 }
 
 .botton-header ul li a:hover {
@@ -104,18 +308,20 @@ body {
 }
 
 .banner .content .section-tit {
-   text-align: center;
-   align-items: center;
+    text-align: center;
+    align-items: center;
 
 }
-.banner .content .section-tit h4{
+
+.banner .content .section-tit h4 {
     font-size: 64px;
     font-weight: 700;
     align-items: center;
     color: #131313;
-    padding-bottom:20px ;
+    padding-bottom: 20px;
 }
-.banner .content .section-tit p{
+
+.banner .content .section-tit p {
     font-size: 16px;
     font-weight: 400;
     color: #727272;
@@ -124,26 +330,28 @@ body {
     margin-bottom: 10px;
     padding-bottom: 20px;
 }
-.btn a{
-display: inline-block;
- font-size: 18px;
- font-weight: 600;
- align-items: center;
- color: #ffffff;
- padding: 10px 20px;
- background-color: #FF900E;
- border-radius: 5px;
- text-decoration: none;
+
+.btn a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    text-decoration: none;
 
 }
+
 .banner-img img {
     width: 100%;
     margin-top: 50px;
 }
 
 /* team section Start */
-.team .content{
-    padding: 100px 0 ;
+.team .content {
+    padding: 100px 0;
     width: 1000px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -151,41 +359,148 @@ display: inline-block;
     align-items: center;
     margin: 0 auto;
 }
-.team-items{
+
+.team-items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.fea-img-item{
-    /* width: 100%; */
+
+.facts-item .inner {
+    padding: 35px;
+}
+
+.facts-item .inner img {
+    width: 45px;
+    height: 45px;
+}
+
+.facts-item .inner h4 {
+    font-size: 40px;
+    font-weight: 600px;
+    color: #424242;
+    line-height: 53px;
+}
+
+.facts-item .inner p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #727272;
+}
+
+.fea-img-item {
     padding: 10px;
 }
-.fea-img-item img{
+
+.fea-img-item img {
     width: 100%;
 }
-.team-item{
+
+.team-item {
     width: 80%;
     margin-top: -50px;
     margin-left: 50px;
 }
-.team-item h3{
+
+.team-item h3 {
     display: block;
     font-size: 45px;
     font-weight: 500;
     color: #727272;
     padding-bottom: 24px;
 }
-.team-item h3 strong{
+
+.team-item h3 strong {
     color: #131313;
 }
-.team-item h3 span{
+
+.team-item h3 span {
     color: #FF900E;
 }
-.team-item p{
+
+.team-item p {
     font-size: 16px;
     font-weight: 400;
     color: #727272;
     padding-bottom: 32px;
 }
+
+
+/* counterupup section start */
+.rn-counterupup {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.rn-counterupup .section-tit {
+    margin-top: 20px;
+}
+
+.count p {
+    font-size: 16px;
+    color: #979696;
+    padding-bottom: 20px;
+}
+
+.counterupup-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.counterupup-content {
+    margin: 30px 0;
+    width: 100%;
+    height: 470px;
+    background: url(../images/bg-image-17.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.counterupup-content:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background-color: #00010c;
+}
+
+.counter {
+    font-size: 72px;
+    line-height: 80px;
+    display: inline-block;
+    margin-bottom: 17px;
+    position: relative;
+    display: inline-block;
+    color: #f9004d;
+    margin-left: -13px;
+}
+
+.counter::after {
+    right: -26px;
+    position: absolute;
+    top: -17px;
+    font-size: 40px;
+    content: "+";
+}
+
+p.description {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 5%;
+    color: rgba(29, 29, 36, 0.75);
+    color: #caccd7;
+}
+
+
+/* counterupup section start */
+
 
 @media (max-width:575px) {
     .container {
@@ -195,7 +510,7 @@ display: inline-block;
         width: 70%;
     }
 
- 
+
 
     .botton-header ul {
         width: 100%;
@@ -211,4 +526,61 @@ display: inline-block;
 
     }
 
+    .btn a {
+        font-size: 11px;
+    }
+
+    .banner-img img {
+        width: 32%;
+        margin-top: 50px;
+    }
+
+    .banner .content .section-tit {
+        text-align: start;
+        margin-left: 25px;
+    }
+
+    .banner .content .section-tit h4 {
+        font-size: 30px;
+    }
+
+    .banner .content .section-tit p {
+        margin: 0;
+    }
+
+    .team .content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fea-img-item img {
+        width: 22%;
+        margin-left: 36px;
+    }
+
+    .team-item {
+        margin-top: 30px;
+        text-align: start;
+        margin-left: 20px;
+    }
+
+    .team-item h3 {
+        font-size: 31px;
+    }
+
+    .team-item p {
+        font-size: 13px;
+    }
+
+    .skill {
+        padding: 30px0;
+    }
+
+    .section-tit h4 {
+        margin-left: 10px;
+        font-size: 29px;
+    }
 }
